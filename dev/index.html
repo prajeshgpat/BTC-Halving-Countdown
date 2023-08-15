@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png" />
+    <link rel="manifest" href="./images/site.webmanifest" />
+    <link rel="mask-icon" href="./images/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <h1>BTC Halving Countdown</h1>
+
+    <div class="countdown-container">
+      <div class="countdown-el days-c">
+        <p class="big-text" id="days">0</p>
+        <span>days</span>
+      </div>
+      <div class="countdown-el hours-c">
+        <p class="big-text" id="hours">0</p>
+        <span>hours</span>
+      </div>
+      <div class="countdown-el mins-c">
+        <p class="big-text" id="mins">0</p>
+        <span>mins</span>
+      </div>
+      <div class="countdown-el seconds-c">
+        <p class="big-text" id="seconds">0</p>
+        <span>seconds</span>
+      </div>
+    </div>
+    <div class="countdown-el target-time">
+      <p id="target-time">Next Halving Date: Loading...</p>
+    </div>
+  </body>
+</html>
